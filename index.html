@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus Garcia-Ramirez</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            background-color: #ffffff;
+            margin: 0 auto;
+            max-width: 900px;
+            padding: 20px;
+            line-height: 1.4;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+        }
+        h2 {
+            font-size: 18px;
+            margin-top: 20px;
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 3px;
+        }
+        a {
+            color: #0000ee;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        a:visited {
+            color: #551a8b;
+        }
+        /* Navigation menu */
+        nav {
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #000;
+        }
+        nav span {
+            margin-right: 15px;
+            font-weight: bold;
+        }
+        /* Layout for Home section */
+        .home-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+        }
+        .profile-pic {
+            max-width: 150px;
+            height: auto;
+            border: 1px solid #999;
+        }
+        /* Lists */
+        ul, ol {
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        /* Sections */
+        .section {
+            display: none;
+        }
+        #home {
+            display: block; /* Default visible section */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <span><a onclick="showSection('home')">Home</a></span>
+        <span><a onclick="showSection('publications')">Publications</a></span>
+        <span><a onclick="showSection('teaching')">Teaching</a></span>
+        <span><a href="CV_Español.pdf" target="_blank">Curriculum Vitae (PDF)</a></span>
+    </nav>
+
+    <!-- HOME / BIO SECTION -->
+    <div id="home" class="section">
+        <div class="home-container">
+            <!-- Placeholder Photo -->
+            <img src="Foto.jpg" alt="Jesus Garcia-Ramirez" class="profile-pic">
+            
+            <!-- Bio text -->
+            <div>
+                <h1>Dr. Jesús García-Ramírez</h1>
+                <p>
+                    <strong>Profesor Interino</strong><br>
+                    Unidad Profesional Interdisciplinaria de Ingeniería Campus Tlaxcala (UPIIT)<br>
+                    <strong>Investigador Posdoctoral</strong><br>
+                    Universidad Autónoma del Estado de México (UAEMex)<br><br>
+                    <strong>Candidato a Investigador Nacional (SNII) 2024-2027</strong>
+                </p>
+                <p>
+                    Jesús García Ramírez currently serves as an interim professor at the Unidad Profesional Interdisciplinaria de Ingeniería Campus Tlaxcala. Previously, he was an adjunct professor at the Universidad Politécnica Metropolitana de Hidalgo, where he has supervised four Master's theses in Artificial Intelligence. He has also completed two postdoctoral fellowships, one at the Faculty of Engineering at UNAM and another at the UAEMex Center in Zumpango. In 2024, he was admitted as a Candidate Researcher in the National System of Researchers (SNII). He holds a B.S. in Computer Systems Engineering from the Instituto Tecnológico de Pachuca, an M.S. in Computer Science from the Benemérita Universidad Autónoma de Puebla, and a Ph.D. in Computer Science from the Instituto Nacional de Astrofísica, Óptica y Electrónica.
+                </p>
+
+                <h2>Research Interests</h2>
+                <ul>
+                    <li>Inteligencia Artificial (Artificial Intelligence)</li>
+                    <li>Aprendizaje Profundo (Deep Learning)</li>
+                    <li>Aprendizaje por Refuerzo (Reinforcement Learning)</li>
+                    <li>Procesamiento de Imágenes Digitales (Digital Image Processing)</li>
+                    <li>Computación Paralela (Parallel Computing)</li>
+                </ul>
+
+                <h2>Awards</h2>
+                <ul>
+                    <li>Best Paper Award, Mexican Congress on Artificial Intelligence (COMIA) 2025.</li>
+                    <li>National Researcher Candidate, National System of Researchers (SNII - CONAHCYT) 2024-2027.</li>
+                    <li>Three-time "Best Teacher of the Master's in Artificial Intelligence", Universidad Politécnica Metropolitana de Hidalgo (Sep-Dec 2022 and Jan-Apr 2023).</li>
+                </ul>
+
+                <h2>Contact</h2>
+                <ul>
+                    <li><strong>Email:</strong> gr_jesus [at] outlook.com / jegarciara [at] ipn.mx</li>
+                    <li><strong>GitHub:</strong> <a href="https://github.com/gr-jesus" target="_blank">gr-jesus</a></li>
+                    <li><strong>Twitter/X:</strong> <a href="https://twitter.com/gr_jesus92" target="_blank">@gr_jesus92</a></li>
+                    <li><strong>ORCID:</strong> 0000-0002-1583-7554</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- PUBLICATIONS SECTION -->
+    <div id="publications" class="section">
+        <h1>Publications</h1>
+        <p>Full list of publications.</p>
+        
+        <ol>
+            <li>
+                (En revisión) <strong>Jesús García-Ramírez</strong>, Boris Escalante-Ramírez, Jimena Olveres. Exploring Genetic Algorithms for Interpretable and Accurate Chest X-Ray Classification, IEEE Canadian Journal of Electrical and Computer Engineering.
+            </li>
+            <li>
+                Mario Cordova Calva, <strong>Jesús García-Ramírez</strong>, Daniel Sánchez-Ruiz, Lauro Reyes Cocoletzi. Reinforcement Learning for Improving the Visual Coherence of Grad-CAM Explanations in Convolutional Neural Networks in Proceedings of ICOKG 2026.
+            </li>
+            <li>
+                Eduardo Ander Quintero-Sánchez, Cristina López-Ramírez, Ricardo Ramos-Aguilar, <strong>Jesús García-Ramírez</strong>, and Luis Enrique Ramon-Pedrero. Latent Steering of Emotional Evidence with Sparse Autoencoders in Language Models, in Proceedings of COMIA 2026.
+            </li>
+            <li>
+                Ximena Yahel Juárez Franco, Samuel Torres Oropeza, <strong>Jesús García-Ramírez</strong>, Daniel Sánchez-Ruiz. A Computer Vision-Based Model for Mexican Sign Language Recognition, in Proceedings of COMIA 2026.
+            </li>
+            <li>
+                José Manuel Meza Gonzalez, <strong>Jesús García Ramírez</strong> and Valentín Trujillo Mora. GridDistill: A Systematic Approach to Bridging the Capacity Gap in Clinical Image Classification. In Proceedings of ICICT 2026.
+            </li>
+            <li>
+                Angel Rosales Contreras, Lauro Reyes-Cocoletzi, Ana Luisa Ballinas-Hernández, M. C. Denicia Carral, and <strong>Jesús García Ramírez</strong>. Detection of Victims Under Disaster Environments by Appliying a Hybrid Deep Learning Algorithms. In Proceedings of WITCOM 2025.
+            </li>
+            <li>
+                Jorge Alonso Vasquez Trijullo, Aldo Yael Hernández, Daniel Sánchez-Ruiz, <strong>Jesús García Ramírez</strong>. Adaptation of Object Detection Models Using Transfer Learning for Navigation in Urban Environments. In Proceedings of MICAI 2025
+            </li>
+            <li>
+                Daphne Sofía González Cano, Daniel Sánchez-Ruiz, <strong>Jesús García-Ramírez</strong>. Mel-Spectrogram Reconstruction from Video Lip Sequences using an Autoencoder Architecture. In Proceedings of MICAI 2025.
+            </li>
+            <li>
+                Cecilia Reyes-Peña, <strong>Jesús García-Ramírez</strong>, Marco Antonio Camacho Durán, Ricardo Ramos-Aguilar. MexaFood: Una ontología para el manejo de dietas en el contexto mexicano. In proceedings of ICOKG 2025.
+            </li>
+            <li>
+                Oscar Henry Sarmiento Sánchez, Ariadna Aguila Hernández, <strong>Jesús García-Ramírez</strong>, Ricardo Ramos Aguilar. Cryptocurrency Price Forecasting via Gate-Level Multi-Source Transfer Learning. In Proceedings of LatinX in AI @ Neurips 2025.
+            </li>
+            <li>
+                Diego Castro Elvira, Navil Pineda Rugerio, <strong>Jesús García-Ramírez</strong>, Cecilia Reyes-Peña, Ricardo Ramos Aguilar. Measuring Similarity between Artistic and AI Generated Images using Siamese Neural Networks. In Proceedings of LatinX in AI @ Neurips 2025.
+            </li>
+            <li>
+                Ian Mateos Gonzalez, Estefani Jaramilla Nava, Abraham Sánchez Morales, <strong>Jesús García Ramírez</strong>, Ricardo Ramos Aguilar and Lauro Reyes Cocoletzi. Lightweight Deep Models for Dermatological Disease Detection: A Study on Instance Selection and Channel Optimization. In Proceedings of LatinX in AI @ Neurips 2025.
+            </li>
+            <li>
+                José Manuel Meza Gonzalez, <strong>Jesús García-Ramírez</strong>, Valentín Trujillo Mora. Esquema de Destilación de Conocimiento Aplicado a Imágenes Médicas con el Conjunto de Datos de MedMNIST. In proceedings of MEXCAS 2025.
+            </li>
+            <li>
+                Andrés Felipe Osorio Benavides, Lauro Reyes-Cocoletzi, <strong>Jesús García-Ramírez</strong>, Ricardo Ramos-Aguilar. Predicción de la calidad del aire en la Ciudad de México mediante técnicas de modelado predictivo. In proceedings of Congreso Internacional de Ciencia de Datos 2025.
+            </li>
+            <li>
+                Carlos Antonio Pérez Guarneros, Cecilia Reyes-Peña, <strong>Jesús García Ramírez</strong>, Silvia Sanchez Marquez. Authorship Attribution in a Scientific Papers by Syntactic and Semantic Textual Representations. In Proceedings of CORE 2025.
+            </li>
+            <li>
+                Emilio Márquez Martínez, Ernesto Mendieta Cuecuecha, <strong>Jesús García-Ramírez</strong>, Eric Ramos Aguilar. YOLO Meets Tlaxcala: Toward Real-Time Urban Object Detection for Assistive Technology. In Proceedings of CORE 2025.
+            </li>
+            <li>
+                María Fernanda León Pluma, Estefanía Fernanda Vázquez Osorno, Daniel Sánchez-Ruíz, Eric Ramos-Aguilar, <strong>Jesús García-Ramírez</strong>. Application of Natural Language Processing Techniques for the Classification and Recommendation of University-Level Mathematical Content. In Proceedings of CORE 2025.
+            </li>
+            <li>
+                (Best paper award) Israel Juárez-Jiménez, Tifanny Guadalupe Martínez-Paredes, <strong>Jesús García-Ramírez</strong>, Daniel Sánchez-Ruiz and Eric Ramos-Aguilar. Facial Landmark Visualization and Emotion Recognition Through Neural Networks. In Proceedings of COMIA 2025.
+            </li>
+            <li>
+                Rodrigo Ramos Díaz, <strong>Jesús García-Ramírez</strong>, Jimena Olveres, Boris Escalante Ramírez. Interpretable CNN: a Case of Study in Chest Computer Tomography Images, in Intelligent-Based Medicine (2025).
+            </li>
+            <li>
+                Diego Martinez-Maqueda, Cecilia Reyes-Peña, and <strong>Jesús García-Ramírez</strong>. Towards Semantic Data Extraction based on Long-Texts Clustering Using Parallel Computing. In Proceedings of MCPR-PSM 2024.
+            </li>
+            <li>
+                N. Orlando Castellanos-Díaz, Jorge Pérez-González, Fernando Arámbula-Cosío, Lisbeth Camargo-Marín, Mario Guzmán-Huerta, Boris Escalante-Ramírez, Jimena Olveres-Montiel, <strong>Jesús García-Ramírez</strong>, Verónica Medina-Bañuelos, and Raquel Valdés Cristerna. Automatic Standard Plane Detection in Fetal Ultrasound Improved by Fine-Tuning, in Proceedings of CLAIB 2024.
+            </li>
+            <li>
+                Hugo Didier Longines Tapia, <strong>Jesús García-Ramírez</strong>, Boris Escalante-Ramírez, Jimena Olveres. 3D medical image analysis with autoencoder-based feature extraction and shallow models. In proceedings of SPIE Photonics Europe 2024.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Boris Escalante-Ramírez, Jimena Olveres. Ajuste de hiperparámetros de modelos explicables para detección de enfermedades respiratorias mediante algoritmos genéticos. In Proceedings of MEXCAS 2023.
+            </li>
+            <li>
+                Hugo Didier Longines Tapia, <strong>Jesús García Ramírez</strong>, Jimena Olveres, Boris Escalante-Ramírez. Reconstrucción de imágenes tomográficas de tórax utilizando autoencoders. In Proceedings of MEXCAS 2023.
+            </li>
+            <li>
+                José Manuel Meza González, <strong>Jesús García-Ramírez</strong>. Una comparación entre las arquitecturas ResNet50 y VGG16 para detección de COVID-19. In Proceedings of MEXCAS 2023.
+            </li>
+            <li>
+                Rodrigo Ramos, <strong>Jesús García-Ramírez</strong>, Jimena Olveres, Boris Escalante-Ramírez. Interpretable CNN: a case of study in chest computer tomography images. In Proceedings of MEXCAS 2023.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Rodrigo Ramos Díaz, Jimena Olveres and Boris Escalante-Ramírez: Meta-Learning for hyperparameters tuning in CNNs for Chest Images. In Proceedings of HAIS 2023.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Boris Escalante Ramírez and Jimena Olveres: Removing Zero-Variance Units of Deep Models for COVID-19 Detection, in IEEE Access (2023).
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Eduardo Morales and Hugo Jair Escalante: Model Compression for Deep Reinforcement Learning through Mutual Information. In Proceedings of IBERAMIRA 2022.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Eduardo Morales and Hugo Jair Escalante: Source Tasks Selection for Transfer Deep Reinforcement Learning: A case of study on Atari games, in Neural Computing and Applications (2021).
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Eduardo Morales and Hugo Jair Escalante: Source Task Selection in Time Series via Performance Prediction. In Proceedings of MICAI 2021.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Eduardo Morales and Hugo Jair Escalante: Multi-Source Transfer Learning for Deep Reinforcement Learning. In Proceedings of MCPR 2021.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Eduardo F. Morales, and Hugo Jair Escalante: Selective Kernel Transfer in Deep Reinforcement Learning, AAAI-Workshop on Reinforcement Learning in Games (2020).
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Eduardo Morales, and Hugo Jair Escalante. Which kernels to transfer in Deep Q-Networks? (extended abstract). LatinX Workshop at NeurIPS, pp 1-3 (2019).
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, J. Arturo Olvera-López, Ivan Olmos Pineda, and Manuel Martín-Ortíz: Mouth and Eyebrow Segmentation for Emotion Recognition Using Interpolated Polynomials in Journal of Intelligent & Fuzzy Systems (2018).
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, J. Arturo Olvera López, Ivan Olmos Pineda, and Manuel Martín-Ortíz: ROIs Segmentation in Facial Images Based on Morphology and Density Concepts. In Proceedings of MCPR 2017.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Ivan Olmos Pineda, J. Arturo Olvera López, Manuel Martín Ortíz: Facial Expression Recognition Using Interpolation Features in Proceedings of MCPR-PSM 2017.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Ivo H. Pineda T., María J. Somodevilla, Mario Rossainz, Concepción Pérez de Celis: Búsqueda paralela exhaustiva aplicada a cadenas de ADN y ARNi in Proceedings of LKE 2016.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, Ivan Olmos Pineda, J. Arturo Olvera López, Manuel Martín Ortíz: Edge Detection for Facial Expression Recognition, In Proceedings of LANMR 2016.
+            </li>
+            <li>
+                <strong>Jesús García-Ramírez</strong>, J. Arturo Olvera López, Ivan Olmos Pineda, Georgina Flores Becerra, Adolfo Aguilar Rico: Thresholding Approach based on GPU for Facial Expression Recognition in Proceedings of MCPR-PSM 2016.
+            </li>
+            <li>
+                Orlando Ramos Flores, Luis Alfredo Moctezuma Pascual, <strong>Jesús García-Ramírez</strong>, David Pinto Avendaño: Análisis sobre el idioma español en México, con base en la frecuencia de palabras azules, rojas, obscenas y vulgares en Twitter in Proceedings of LKE 2015.
+            </li>
+        </ol>
+    </div>
+
+    <!-- TEACHING SECTION -->
+    <div id="teaching" class="section">
+        <h1>Teaching</h1>
+        <p>I currently teach or have taught the following courses at the undergraduate and graduate levels:</p>
+        
+        <h2>Unidad Profesional Interdisciplinaria de Ingeniería Campus Tlaxcala (UPIIT)</h2>
+        <ul>
+            <li>Cómputo Paralelo</li>
+            <li>Redes Neuronales y Aprendizaje Profundo</li>
+            <li>Temas Selectos de Aprendizaje Profundo</li>
+            <li>Minería de Datos</li>
+            <li>Analítica y Visualización de datos</li>
+            <li>Modelado Predictivo</li>
+            <li>Cómputo de Alto Desempeño</li>
+            <li>Fundamentos y Paradigmas de Programación</li>
+            <li>Estadística Avanzada y Análisis de Series de Tiempo</li>
+        </ul>
+
+        <h2>Universidad Politécnica Metropolitana de Hidalgo (UPMH) - Maestría en IA</h2>
+        <ul>
+            <li>Machine Learning</li>
+            <li>Cómputo de Alto Desempeño</li>
+            <li>Minería de Datos</li>
+        </ul>
+    </div>
+
+    <!-- JavaScript to toggle sections -->
+    <script>
+        function showSection(sectionId) {
+            // Hide all sections
+            var sections = document.getElementsByClassName('section');
+            for (var i = 0; i < sections.length; i++) {
+                sections[i].style.display = 'none';
+            }
+            // Show the selected section
+            document.getElementById(sectionId).style.display = 'block';
+            
+            // Optional: Scroll to top when changing tabs
+            window.scrollTo(0, 0);
+        }
+    </script>
+</body>
+</html>
